@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Read Later",
+  "version": "1.0",
+  "description": "Save any article with one click",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://read-later-six.vercel.app/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Save to Read Later"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+S"
+      }
+    }
+  }
+}
